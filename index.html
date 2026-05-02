@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naveen Kumar K | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Naveen Kumar K - IT Student, Data Entry Specialist, AI Tools User" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- =========== LOADER =========== -->
+  <div class="loader" id="loader">
+    <div class="loader-circle"></div>
+    <p class="loader-text">Loading Portfolio...</p>
+  </div>
+
+  <!-- =========== ANIMATED BACKGROUND =========== -->
+  <div class="bg-particles" id="particles"></div>
+
+  <!-- =========== NAVBAR =========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">N<span>K</span></a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#strengths" class="nav-link">Strengths</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========== HERO SECTION =========== -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-greet">👋 Hello, I'm</p>
+        <h1 class="hero-name">Naveen Kumar <span class="accent">K</span></h1>
+        <h2 class="hero-typing">
+          <span id="typingText"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-desc">
+          Motivated and detail-oriented Information Technology student seeking
+          a part-time Office/Admin role to apply organizational and technical skills.
+        </p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary" id="downloadBtn">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:naveennk1208@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:8122184845" aria-label="Phone"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="avatar-wrapper">
+          <div class="avatar-glow"></div>
+          <div class="avatar">
+            <div class="avatar-initials">NK</div>
+          </div>
+          <div class="floating-card card-1"><i class="fas fa-keyboard"></i> Fast Typing</div>
+          <div class="floating-card card-2"><i class="fas fa-robot"></i> AI Tools</div>
+          <div class="floating-card card-3"><i class="fas fa-search"></i> Research</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+      <p>Scroll Down</p>
+    </div>
+  </section>
+
+  <!-- =========== ABOUT SECTION =========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">About Me</p>
+        <h2 class="section-title">Get to Know Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="about-img-box">
+            <div class="about-img-placeholder">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="about-badge">
+              <i class="fas fa-award"></i>
+              <div>
+                <strong>Top 10</strong>
+                <small>Class XII (2025)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text reveal">
+          <h3>Information Technology Student & Aspiring Admin Professional</h3>
+          <p>
+            I'm Naveen Kumar K, a B.Tech Information Technology student based in Chennai, India.
+            Passionate about technology, productivity, and efficient workflows, I bring strong
+            organizational skills, fast and accurate data entry abilities, and hands-on experience
+            with modern AI tools.
+          </p>
+          <p>
+            I thrive on attention to detail and continuous learning, and I'm currently looking for
+            a part-time Office/Admin role where I can contribute and grow.
+          </p>
+
+          <div class="about-info">
+            <div class="info-item">
+              <i class="fas fa-user"></i>
+              <div><strong>Name:</strong> Naveen Kumar K</div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div><strong>Location:</strong> Chennai, India</div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div><strong>Email:</strong> naveennk1208@gmail.com</div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div><strong>Phone:</strong> 8122184845</div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-language"></i>
+              <div><strong>Languages:</strong> Tamil (Native), English (Proficient)</div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-briefcase"></i>
+              <div><strong>Looking For:</strong> Part-time Office/Admin Role</div>
+            </div>
+          </div>
+
+          <h4 class="skill-bar-title">Core Proficiencies</h4>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="skill-bar-info">
+                <span>Data Entry & Typing</span><span>95%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-width="95%"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-info">
+                <span>AI Productivity Tools</span><span>90%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-info">
+                <span>MS Office</span><span>85%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-info">
+                <span>Internet Research</span><span>92%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-width="92%"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-info">
+                <span>Communication</span><span>88%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-width="88%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== SKILLS SECTION =========== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">My Skills</p>
+        <h2 class="section-title">What I Bring to the Table</h2>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Technical -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Technical Skills</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> Typing (Fast & Accurate)</li>
+            <li><i class="fas fa-check"></i> Data Entry</li>
+            <li><i class="fas fa-check"></i> Internet Research</li>
+          </ul>
+        </div>
+
+        <!-- AI & Tools -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-robot"></i></div>
+          <h3>AI & Tools</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> Claude AI</li>
+            <li><i class="fas fa-check"></i> ChatGPT</li>
+            <li><i class="fas fa-check"></i> Qwen AI</li>
+            <li><i class="fas fa-check"></i> Gamma</li>
+          </ul>
+        </div>
+
+        <!-- Office -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-file-alt"></i></div>
+          <h3>Office Skills</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> MS Office Basics</li>
+            <li><i class="fas fa-check"></i> Document Management</li>
+            <li><i class="fas fa-check"></i> Email Communication</li>
+          </ul>
+        </div>
+
+        <!-- Soft -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-handshake"></i></div>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li><i class="fas fa-check"></i> Time Management</li>
+            <li><i class="fas fa-check"></i> Attention to Detail</li>
+            <li><i class="fas fa-check"></i> Team Player</li>
+            <li><i class="fas fa-check"></i> Quick Learner</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== EDUCATION SECTION =========== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">My Journey</p>
+        <h2 class="section-title">Education Timeline</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-university"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Pursuing</span>
+            <h3>B.Tech – Information Technology</h3>
+            <h4>Meenakshi College of Engineering, Chennai</h4>
+            <p>Currently pursuing my Bachelor's degree in Information Technology, focusing on
+              modern computing skills, problem-solving, and digital tools.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2025</span>
+            <h3>Class XII (Higher Secondary)</h3>
+            <h4>Score: 82% — Top 10 in Class</h4>
+            <p>Achieved 82% in Class XII and ranked among the top 10 students,
+              showcasing consistent academic performance and dedication.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-school"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023</span>
+            <h3>Class X (Secondary)</h3>
+            <h4>Score: 81%</h4>
+            <p>Completed secondary education with 81%, building a strong
+              foundation in core subjects and analytical thinking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== STRENGTHS SECTION =========== -->
+  <section class="section section-alt" id="strengths">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Why Hire Me</p>
+        <h2 class="section-title">Key Strengths</h2>
+      </div>
+
+      <div class="strengths-grid">
+        <div class="strength-card reveal">
+          <i class="fas fa-keyboard"></i>
+          <h3>Fast & Accurate Data Entry</h3>
+          <p>Quick typing with attention to detail to deliver error-free results.</p>
+        </div>
+        <div class="strength-card reveal">
+          <i class="fas fa-search-plus"></i>
+          <h3>Strong Research Skills</h3>
+          <p>Skilled at finding accurate information online efficiently.</p>
+        </div>
+        <div class="strength-card reveal">
+          <i class="fas fa-tasks"></i>
+          <h3>Efficient Multitasking</h3>
+          <p>Comfortable managing multiple tasks while meeting deadlines.</p>
+        </div>
+        <div class="strength-card reveal">
+          <i class="fas fa-bolt"></i>
+          <h3>Quick Learner</h3>
+          <p>Adapts rapidly to new tools, software, and workflows.</p>
+        </div>
+        <div class="strength-card reveal">
+          <i class="fas fa-microchip"></i>
+          <h3>AI Productivity Tools</h3>
+          <p>Hands-on experience with Claude, ChatGPT, Qwen AI, and Gamma.</p>
+        </div>
+        <div class="strength-card reveal">
+          <i class="fas fa-clock"></i>
+          <h3>Strong Time Management</h3>
+          <p>Prioritizes tasks effectively to maximize productivity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== CONTACT SECTION =========== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Get in Touch</p>
+        <h2 class="section-title">Let's Work Together</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Contact Information</h3>
+          <p>I'm open to part-time Office/Admin opportunities. Feel free to reach out!</p>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:naveennk1208@gmail.com">naveennk1208@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:8122184845">+91 8122 184 845</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Location</strong>
+              <span>Chennai, India</span>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" required />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" required />
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" required />
+            <label for="subject">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== FOOTER =========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Naveen Kumar K. All rights reserved.</p>
+      <p class="footer-sub">Designed with ❤️ in Chennai, India</p>
+    </div>
+  </footer>
+
+  <!-- =========== SCROLL TO TOP =========== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
